@@ -15,4 +15,16 @@
 - Understand how to use event listeners to trigger functions based on user actions.
 - Explore data sorting and formatting techniques to enhance the user experience.
 
-### an employee payroll tracker application that enables a payroll manager to add, view, and manage employee payroll data with a responsive and dynamic interface
+### Features
+
+- **Dynamic DOM Manipulation**: Automatically updates HTML elements to reflect changes in employee payroll data.
+- **User Input Collection**: JavaScript functions gather input data from forms for payroll calculations.
+- **Aggregated Data Calculations**: Computes totals and averages such as total payroll and average salary.
+- **Interactive Interface**: Utilizes event listeners for interactive elements, enhancing user experience.
+- **Data Sorting and Formatting**: Presents employee payroll data in an organized and readable table format.
+
+### Summary
+
+This project is an employee payroll tracker application designed for payroll managers to efficiently add, view, and manage employee payroll data. The application features a responsive and dynamic interface, providing tools for data manipulation, aggregation, and presentation. It allows for real-time updates to payroll records, interactive user input handling, and clear data visualization to streamline payroll management.
+
+https://brockaltug.github.io/employee-payroll-tracker/
