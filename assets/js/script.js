@@ -62,8 +62,27 @@ const displayAverageSalary = function(employeesArray) {
 }
 
 // Select a random employee
-const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
+const getRandomEmployee = function(employeesArray) {
+  // check if the array is not empty
+  if (employeesArray.length === 0) {
+    alert("No employees available to select.");
+    return;
+  }
+
+  // generate a random index based on the length of the employees array
+  const randomIndex = Math.floor(Math.random() * employeesArray.length);
+
+  // select a random employee from the array
+  const randomEmployee = employeesArray[randomIndex];
+
+  // display the random employee's details
+  alert(`Randomly selected employee:\nFirst Name: ${randomEmployee.firstName}\nLast Name: ${randomEmployee.lastName}\nSalary: ${randomEmployee.salary.toLocaleString("en-US", { style: "currency", currency: "USD" })}`);
+  
+  // log the random employee's details to the console
+  console.log(`Randomly selected employee:\nFirst Name: ${randomEmployee.firstName}\nLast Name: ${randomEmployee.lastName}\nSalary: ${randomEmployee.salary.toLocaleString("en-US", { style: "currency", currency: "USD" })}`);
+
+  return randomEmployee;
 }
 
 /*
