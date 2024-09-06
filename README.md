@@ -28,4 +28,4 @@
 
 Employee payroll tracker application designed for payroll managers to efficiently add, view, and manage employee payroll data. The application features a responsive and dynamic interface, providing tools for data manipulation, aggregation, and presentation. It allows for real-time updates to payroll records, interactive user input handling, and clear data visualization to streamline payroll management.
 
-[View Live Demo](https://brockaltug.github.io/employee-payroll-tracker/)
+https://brockaltug.github.io/employee-payroll-tracker/
